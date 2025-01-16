@@ -1,0 +1,33 @@
+#formAddNewMeet {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* modifica class form-control di bootstrap per personalizzare colore sul focus del controllo,
+   diverso dall'azzurro di boostrap) */
+textarea:focus,
+input[type="text"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color:#0B9040;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 4px #0B9040;
+  outline: 0 none;
+}
+
+form-select:focus {
+  border-color:#0B9040;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 4px #0B9040;
+  outline: 0 none;
+}

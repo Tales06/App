@@ -1,0 +1,31 @@
+div#content {
+    clear:both;
+    text-align:center; 
+    margin:25px 0 25px 0;
+}
+
+.appuntamento {
+	/*text-align: center;
+    background: #666669;*/
+    border-style: solid;
+    border-width: thin;
+    border-color: #5CB973;
+    padding: 15px 10px 15px 30px;
+    border-radius: 50px;
+    height: 100px;
+    min-height: 110px; /*per non far apparire la scroll-bar*/
+    display: flex;
+    flow-direction: row;
+    /*flex-wrap: wrap;*/
+    overflow:auto;
+    resize:vertical;
+}
+
+a#linkAddMeet {
+    color: #5CB973;
+    text-decoration: none;
+}
+
+.importante {
+    border-color: red;
+}

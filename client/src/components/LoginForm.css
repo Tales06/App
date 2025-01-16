@@ -1,0 +1,14 @@
+a#login {
+	color:white
+}
+
+a#login:hover {
+  background-color: #111;
+  color:white
+}
+
+@media screen and (max-width: 600px) {
+  #user-log {
+    color:#333333;
+  } 
+}
